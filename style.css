@@ -1,0 +1,423 @@
+body{
+    font-family: "Jost",sans-serif;
+}
+*{
+    font-family: "Jost", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #EEEFF1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1046px;
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    align-items: center;
+}
+nav ul{
+    display:flex;
+    margin-left: 250px;
+}
+nav li{
+    list-style-type:none;
+    margin-left: 40px;
+}
+nav a{
+    color:#1B1B1D;
+    text-decoration: none;
+    font-size: 15px
+}
+.buttons{
+    display: flex;
+}
+.Basket{
+    border: 0;
+    background-color: white;
+    border-radius: 30px;
+    width: 56px;
+    height: 56px;
+}
+.BUYg{
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 63px;
+    height: 56px;
+    width: 208px;
+}
+.BUYg a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Jost";
+    color: white;
+}
+.ADC p{
+font-family: Jost;
+font-size: 24px;
+font-weight: 400;
+line-height: 34.68px;
+text-align: left;
+color:#64646A ;
+
+}
+.coffeetitle{
+font-family: Jost;
+font-size: 124px;
+font-weight: 800;
+line-height: 140px;
+text-align: left;
+
+}
+.sections{
+    display: flex;
+}
+.linkes{
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Dapp{
+width:225px;
+height:70px;
+padding: 20px 40px 20px 40px;
+gap: 10px;
+border-radius: 126px;
+opacity: 0px;
+background-color:black;
+text-decoration: none;
+color: white;
+font-family: Jost;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+}
+.SHcoffee{
+    color: black;
+    font-size: 18px;  
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.main-cards{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-title h2{
+    font-size: 64px;
+}
+.main-title p{
+    font-size: 24px;
+    margin-top: 20px;
+    color: #64646A;
+}
+.cards{
+    margin-top: 90px;
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 394px;
+    height: 540px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 24px;
+    margin-right: 30px;
+}
+.card h3{
+    margin-top: 20px;
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+.card p{
+    color: #64646A;
+    font-size: 24px;
+}
+.card img{
+    margin-top: 60px;
+    width: 150px;
+    height: 147px;
+}
+.card button{
+    margin-top: 60px;
+    background: black;
+    width: 225px;
+    height: 60px;
+    border-radius: 60px;
+}
+.card a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-Order{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.favoriteCoffee h2{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.favoriteCoffee p{
+    color: #64646A;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+.favoriteCoffee button{
+background: black;
+width: 191px;
+height: 70px;
+border-radius: 60px;
+}
+.favoriteCoffee a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.WhatCom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.WhatCom h2{
+font-size: 64px;
+}
+.scorses{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.scorses p{
+font-size: 40px;
+margin-right: 24px;
+
+}
+.scoRe p{
+    font-size: 20px;
+    color: #64646A;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+footer{
+   margin-top: 140px; 
+}
+.BUTons{
+    display: flex;
+    align-items: center;
+}
+.slider-container {
+    position: relative;
+    width: 1130px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carD {
+    display: flex;
+    flex-direction: column;
+   min-width: 500px;
+    height: 648px;
+    margin: 10px 10px 10px 40px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 16px;
+}
+.carD p{
+    font-size: 20px;
+}
+.stars{
+    margin-top: 40px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.stars p{
+    font-size: 24px;
+    margin-left: 49px;
+}
+.stars img{
+    margin-right: 93px;
+}
+.bars p{
+    font-size: 24px;
+    margin-left: 49px;
+}
+.bars img{
+    margin-right: 168px;
+}
+.prev{
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    transform: translateY(-50%);
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.next{
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    transform: translateY(-50%);
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+BUTons button.prev {
+    left: 0;
+}
+
+BUTons button.next {
+    right: 0;
+}
+.Foot{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-info img{
+margin-bottom: 40px;
+width: 307px;
+height: 122px;
+}
+.footer-info p{
+    color: #64646A;
+font-family: 'Jost';
+font-size: 30px;
+}
+.footer-info h3{
+    margin-top: 90px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.FINDy{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.FINDy a{
+    font-family: 'Jost';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.FINDy img{
+    width: 30px;
+    height: 30px;
+}
+.Contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Contacts h3{
+    font-size: 40px;
+}
+.Email{
+    display: flex;
+    margin:30px 0;
+    font-size: 30px;
+    color: #64646A;
+}
+.Email button{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 0;
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Email p{
+    margin-left: 24px;
+}
+.Phone{
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #64646A;
+}
+.Phone button{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 0;
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Phone p{
+    margin-left: 24px;
+}
+.SocialMes button{
+    margin-right: 24px;
+    width: 60px;
+    height: 60px;
+border: 0;
+background: white;
+border-radius: 60px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.First{
+    margin-top: 90px;
+}
+input{
+    width: 413px;
+    height: 70px;
+    border-radius: 65px;
+    margin: 30px 0;
+    border: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.subscribe{
+    background: black;
+    width: 173px;
+    height: 70px;
+    border-radius: 126px;
+}
+.subscribe a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.copirayt{
+    margin-top: 80px;
+    display:flex;
+    justify-content: space-around;
+}
